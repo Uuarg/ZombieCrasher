@@ -90,19 +90,23 @@ public class PlayerController : BaseController {
 	}
 
 	public void ShootingControl() {
-		
-		if (Time.timeScale != 0) {
-			if (canShoot) {
-				GameObject bullet = Instantiate (bullet_Prefab, bullet_StartPoint.position,
+
+		if (Time.timeScale != 0)
+		{
+			if (canShoot)
+			{
+				GameObject bullet = Instantiate(bullet_Prefab, bullet_StartPoint.position,
 					Quaternion.identity);
-				bullet.GetComponent<BulletScript> ().Move (2000f);
-				shootFX.Play ();
+				bullet.GetComponent<BulletScript>().Move(2000f);
+				shootFX.Play();
 
 
 				canShoot = false;
-				shootSliderAnim.Play ("Fill");
+				shootSliderAnim.Play("Fill");
 			}
 		}
+		else
+			canShoot = false;
 
 	}
 

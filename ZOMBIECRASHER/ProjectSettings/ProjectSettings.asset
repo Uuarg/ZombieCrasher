@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -142,8 +142,10 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0.2
   preloadedAssets:
-  - {fileID: -944628639613478452, guid: 56456e1eace5340da9ff5bdd9bde8c5e, type: 3}
-  - {fileID: -3161921126393088675, guid: 5a17215284a45468991ce43643fa7b27, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 54ea9be6f8914d94ea2cef681861ed29, type: 2}
+  - {fileID: -7482592376643285542, guid: 08fb2e30b3217f847bb6fce1e84520aa, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -780,7 +782,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: ZOMBIECRASHER
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -788,7 +790,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: ZOMBIECRASHER
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: ZOMBIECRASHER
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

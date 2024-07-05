@@ -1,0 +1,11 @@
+# ninja log v5
+33	201	7418915897842069	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	93621288c787bf2a
+202	474	7418915899567190	F:/PROJECTS/GITPROJECTS/ZOMBIECRASHER/ZOMBIECRASHER/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3m3z295j/obj/arm64-v8a/libswappywrapper.so	d320291463b53af9
+21	908	7418915904843996	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4d6f57ecd4167c54
+6	1100	7418915905804619	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	bf101c5e36384b81
+13	1178	7418915906115033	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e3d383a0f8651915
+28	1237	7418915908095821	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	62cff5aef210d061
+1	1306	7418915908888533	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	659ce883aba7b50
+17	1472	7418915910499105	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3fc21ec3368e9399
+10	1580	7418915911479090	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b0de741e455ce867
+1580	1680	7418915912569073	F:/PROJECTS/GITPROJECTS/ZOMBIECRASHER/ZOMBIECRASHER/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3m3z295j/obj/arm64-v8a/libgame.so	eb87325fe924f4d0
