@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|f:\\projects\\gitprojects\\zombiecrasher\\zombiecrasher\\assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\assets\\scripts\\player scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|f:\\projects\\gitprojects\\zombiecrasher\\zombiecrasher\\assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\assets\\scripts\\helper scripts\\gameplaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SmoothFollow.cs",
               "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
@@ -55,15 +55,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "ToolTip": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAmwGgAAAAhAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwC4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T10:14:55.457Z"
+              "WhenOpened": "2024-07-05T10:14:55.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

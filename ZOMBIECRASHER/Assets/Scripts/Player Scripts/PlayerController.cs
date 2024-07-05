@@ -11,7 +11,12 @@ public class PlayerController : BaseController {
 	public GameObject bullet_Prefab;
 	public ParticleSystem shootFX;
 
-	private Animator shootSliderAnim;
+    [SerializeField] private FixedJoystick _joystick;
+    [SerializeField] private Animator _animator;
+
+	
+
+    private Animator shootSliderAnim;
 
 	[HideInInspector]
 	public bool canShoot;
@@ -31,13 +36,16 @@ public class PlayerController : BaseController {
 		ChangeRotation ();
 	}
 
-	void FixedUpdate() {
-		MoveTank ();
-	}
+	private void FixedUpdate() {
+        
+        MoveTank ();
+        myBody.velocity = new Vector3((_joystick.Horizontal) * 3, myBody.velocity.y, _joystick.Vertical * 3);
 
-	void MoveTank() {
+    }
+
+	private void MoveTank() {
 		myBody.MovePosition (myBody.position + speed * Time.deltaTime);
-	}
+    }
 
 	void ControlMovementWithKeyboard() {
 		
