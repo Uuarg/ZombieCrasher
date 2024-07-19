@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\",
+  "WorkspaceRootPath": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\assets\\scripts\\player scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|c:\\users\\oguzh\\onedrive\\masa\u00FCst\u00FC\\zombiecrasher\\zombiecrasher\\assets\\scripts\\player scripts\\joystickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\joystickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\assets\\scripts\\player scripts\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|c:\\users\\oguzh\\onedrive\\masa\u00FCst\u00FC\\zombiecrasher\\zombiecrasher\\assets\\scripts\\player scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|f:\\projects\\gitprojects\\zombiecrasher\\zombiecrasher\\assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\assets\\scripts\\helper scripts\\gameplaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\assets\\scripts\\helper scripts\\gameplaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helper scripts\\gameplaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\assets\\scripts\\player scripts\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784F03B1-72D3-F92A-5A1C-364286EA2ADF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera scripts\\smoothfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "JoystickController.cs",
+              "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\JoystickController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\JoystickController.cs",
+              "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\JoystickController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\JoystickController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:10:06.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SmoothFollow.cs",
-              "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
+              "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
-              "ToolTip": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
+              "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\Camera Scripts\\SmoothFollow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T14:21:25.82Z",
+              "WhenOpened": "2024-07-05T14:21:25.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameplayController.cs",
+              "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
+              "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAuwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T10:17:21.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameplayController.cs",
-              "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
-              "ToolTip": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Helper Scripts\\GameplayController.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAuwA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T10:17:21.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\PlayerController.cs",
-              "ToolTip": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\PlayerController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwC4AAAACAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAQwJwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T10:14:55.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BaseController.cs",
-              "DocumentMoniker": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\BaseController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\BaseController.cs",
-              "ToolTip": "F:\\PROJECTS\\GITPROJECTS\\ZOMBIECRASHER\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\BaseController.cs",
+              "ToolTip": "C:\\Users\\oguzh\\OneDrive\\Masa\u00FCst\u00FC\\ZombieCrasher\\ZOMBIECRASHER\\Assets\\Scripts\\Player Scripts\\BaseController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T10:14:12.718Z"
+              "WhenOpened": "2024-07-05T10:14:12.718Z",
+              "EditorCaption": ""
             }
           ]
         }

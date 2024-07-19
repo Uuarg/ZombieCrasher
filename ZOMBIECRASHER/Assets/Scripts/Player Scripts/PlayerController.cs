@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class PlayerController : BaseController {
 
 	private Rigidbody myBody;
@@ -10,9 +11,6 @@ public class PlayerController : BaseController {
 	public Transform bullet_StartPoint;
 	public GameObject bullet_Prefab;
 	public ParticleSystem shootFX;
-
-    [SerializeField] private FixedJoystick _joystick;
-    [SerializeField] private Animator _animator;
 
 	
 
@@ -32,14 +30,14 @@ public class PlayerController : BaseController {
 	}
 
 	void Update () {
-		ControlMovementWithKeyboard ();
-		ChangeRotation ();
+		//ControlMovementWithKeyboard ();
+		//ChangeRotation ();
 	}
 
 	private void FixedUpdate() {
         
         MoveTank ();
-        myBody.velocity = new Vector3((_joystick.Horizontal) * 3, myBody.velocity.y, _joystick.Vertical * 3);
+        //myBody.linearVelocity = new Vector3((_joystick.Horizontal) * 3, myBody.linearVelocity.y, _joystick.Vertical * 3);
 
     }
 
