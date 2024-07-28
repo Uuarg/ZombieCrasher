@@ -9,19 +9,26 @@ public class JoystickController : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private Rigidbody _rigidbody;
-
-
+    [SerializeField] private float rotationSpeed = 3f;
+    [SerializeField] private float resetRotationSpeed = 10f;
     private void FixedUpdate()
     {
-        _rigidbody.linearVelocity = new Vector3(_joystick.Horizontal * _moveSpeed, _rigidbody.linearVelocity.y);
+        float horizontalInput = _joystick.Horizontal;
 
-        Vector3 moveDirection = new Vector3(_joystick.Horizontal, 0, _joystick.Vertical).normalized;
-
-        if (moveDirection != Vector3.zero)
+        if (Mathf.Abs(horizontalInput) > 0.1f)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            _rigidbody.MoveRotation(Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 2f));
+
+            Quaternion targetRotation = Quaternion.Euler(0, horizontalInput * 90, 0);
+            _rigidbody.MoveRotation(Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed));
+
+            _rigidbody.linearVelocity = transform.forward * _moveSpeed;
+        }
+        else
+        {
+            Quaternion straightRotation = Quaternion.Euler(0, 0, 0);
+            _rigidbody.MoveRotation(Quaternion.Slerp(transform.rotation, straightRotation, Time.deltaTime * resetRotationSpeed));
+
+            _rigidbody.linearVelocity = transform.forward * _moveSpeed;
         }
     }
-
 }
